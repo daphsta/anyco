@@ -1,0 +1,31 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-family: $base-font-family;
+  border-bottom: 1px solid #f0f0f2;
+
+  .main {
+    min-height: 20px;
+  }
+}
+
+
+nav a {
+  font-size: 0.9em;
+  color: $light-gray;
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 20px;
+}
